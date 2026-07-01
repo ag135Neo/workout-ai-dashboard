@@ -1,0 +1,2234 @@
+{
+  "sessions": [
+    {
+      "date": "2026-05-22",
+      "muscle": "Hams, Glutes, Back",
+      "satisfaction": 78,
+      "exercises": [
+        {
+          "name": "Leg Curl",
+          "sets": [
+            [
+              "16",
+              "20"
+            ],
+            [
+              "15",
+              "28"
+            ],
+            [
+              "13",
+              "32"
+            ]
+          ]
+        },
+        {
+          "name": "RDLs",
+          "sets": [
+            [
+              "12",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ],
+            [
+              "6",
+              "22.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Sumo Squat",
+          "sets": [
+            [
+              "15",
+              "10"
+            ],
+            [
+              "15",
+              "12.5"
+            ],
+            [
+              "12",
+              "15"
+            ]
+          ]
+        },
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "11",
+              "8"
+            ],
+            [
+              "8",
+              "10"
+            ],
+            [
+              "5",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Bent Over Row (Wide)",
+          "sets": [
+            [
+              "15",
+              "28"
+            ],
+            [
+              "13",
+              "32"
+            ],
+            [
+              "12",
+              "38"
+            ]
+          ]
+        },
+        {
+          "name": "Straight Arm Cable Pulldown",
+          "sets": []
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-05-25",
+      "muscle": "Quads, Glutes, Delts",
+      "satisfaction": 65,
+      "exercises": [
+        {
+          "name": "Leg Extn",
+          "sets": [
+            [
+              "15",
+              "5"
+            ],
+            [
+              "10",
+              "7"
+            ],
+            [
+              "10",
+              "8"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Squat",
+          "sets": [
+            [
+              "15",
+              "16"
+            ],
+            [
+              "10",
+              "20"
+            ],
+            [
+              "8",
+              "24"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "24kg new top weight"
+        },
+        {
+          "name": "Split Squat (Quads)",
+          "sets": [
+            [
+              "12",
+              "5x2"
+            ],
+            [
+              "10",
+              "7.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Seated DB OHP",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Lateral Raise",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "15",
+              "2.5x2"
+            ],
+            [
+              "12",
+              "4x2"
+            ]
+          ]
+        },
+        {
+          "name": "Split Squat (Glutes)",
+          "sets": [
+            [
+              "12",
+              ""
+            ],
+            [
+              "12",
+              ""
+            ],
+            [
+              "12",
+              ""
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-05-26",
+      "muscle": "Back, Bi",
+      "satisfaction": 65,
+      "exercises": [
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "12",
+              "8"
+            ],
+            [
+              "6",
+              "11"
+            ],
+            [
+              "8",
+              "9"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "9kg for 8 reps"
+        },
+        {
+          "name": "Single Arm Pulldown",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "10",
+              "28"
+            ],
+            [
+              "10",
+              "28"
+            ]
+          ]
+        },
+        {
+          "name": "T-Bar (Wide)",
+          "sets": [
+            [
+              "12",
+              "27.5"
+            ],
+            [
+              "15",
+              "22.5"
+            ],
+            [
+              "15",
+              "20"
+            ]
+          ]
+        },
+        {
+          "name": "Seated Cable Rowing (Close)",
+          "sets": [
+            [
+              "15",
+              "32"
+            ],
+            [
+              "15",
+              "40"
+            ],
+            [
+              "12",
+              "44"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "44kg"
+        },
+        {
+          "name": "Bicep Curl",
+          "sets": [
+            [
+              "15",
+              "4"
+            ],
+            [
+              "15",
+              "8"
+            ],
+            [
+              "15",
+              "12"
+            ]
+          ]
+        },
+        {
+          "name": "Hammer Curl",
+          "sets": [
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-05-28",
+      "muscle": "Chest, Tri",
+      "satisfaction": 55,
+      "exercises": [
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            [
+              "12",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Fly",
+          "sets": [
+            [
+              "12",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ],
+            [
+              "13",
+              "3"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Press",
+          "sets": [
+            [
+              "11",
+              "Bar"
+            ],
+            [
+              "8",
+              "Bar"
+            ],
+            [
+              "12",
+              "5"
+            ]
+          ]
+        },
+        {
+          "name": "Incline DB Fly",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pushdown",
+          "sets": [
+            [
+              "15",
+              "24"
+            ],
+            [
+              "12",
+              "24"
+            ],
+            [
+              "15",
+              "24"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-05-29",
+      "muscle": "Hams, Back",
+      "satisfaction": 70,
+      "exercises": [
+        {
+          "name": "Leg Curl",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "15",
+              "28"
+            ],
+            [
+              "15",
+              "32"
+            ]
+          ]
+        },
+        {
+          "name": "RDLs",
+          "sets": [
+            [
+              "12",
+              "15x2"
+            ],
+            [
+              "8",
+              "20x2"
+            ],
+            [
+              "6",
+              "25x2"
+            ]
+          ]
+        },
+        {
+          "name": "Bent Over Row",
+          "sets": [
+            [
+              "12",
+              "7.5x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ],
+            [
+              "10",
+              "15x2"
+            ]
+          ]
+        },
+        {
+          "name": "Lat Pullover",
+          "sets": [
+            [
+              "13",
+              "8"
+            ],
+            [
+              "6",
+              "11"
+            ],
+            [
+              "8",
+              "18"
+            ]
+          ]
+        },
+        {
+          "name": "Split Squat (Glutes)",
+          "sets": [
+            [
+              "12",
+              "5x2"
+            ],
+            [
+              "12",
+              "7.5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-04",
+      "muscle": "Hams, Back",
+      "satisfaction": 70,
+      "exercises": [
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "15",
+              "8"
+            ],
+            [
+              "10",
+              "10"
+            ],
+            [
+              "7",
+              "11"
+            ]
+          ]
+        },
+        {
+          "name": "Leg Curl",
+          "sets": [
+            [
+              "15",
+              "24"
+            ],
+            [
+              "15",
+              "32"
+            ],
+            [
+              "19",
+              "36"
+            ]
+          ]
+        },
+        {
+          "name": "RDLs",
+          "sets": [
+            [
+              "12",
+              "15x2"
+            ],
+            [
+              "4",
+              "25x2"
+            ],
+            [
+              "6",
+              "25x2"
+            ]
+          ]
+        },
+        {
+          "name": "T-Bar (Wide)",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "12",
+              "30"
+            ],
+            [
+              "8",
+              "35"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pullover",
+          "sets": [
+            [
+              "16",
+              "32"
+            ],
+            [
+              "15",
+              "40"
+            ],
+            [
+              "12",
+              "48"
+            ]
+          ]
+        },
+        {
+          "name": "Split Squat (Glutes)",
+          "sets": [
+            [
+              "12x2",
+              "5x2"
+            ],
+            [
+              "12x2",
+              "7.5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-05",
+      "muscle": "Chest, Triceps",
+      "satisfaction": 70,
+      "exercises": [
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Fly",
+          "sets": [
+            [
+              "15",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ]
+          ]
+        },
+        {
+          "name": "Flat Chest Press",
+          "sets": [
+            [
+              "15",
+              "4"
+            ],
+            [
+              "12",
+              "5"
+            ],
+            [
+              "15",
+              "6"
+            ]
+          ]
+        },
+        {
+          "name": "Incline DB Fly",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Skullcrusher",
+          "sets": [
+            [
+              "15",
+              "2.5x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pushdown",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "12",
+              "24"
+            ],
+            [
+              "15(7+8)",
+              "28,20"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-08",
+      "muscle": "Quads, Glutes, Delts",
+      "satisfaction": 85,
+      "exercises": [
+        {
+          "name": "Leg Extn",
+          "sets": [
+            [
+              "12",
+              "6"
+            ],
+            [
+              "12",
+              "8"
+            ],
+            [
+              "8",
+              "9"
+            ],
+            [
+              "3x",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Squat",
+          "sets": [
+            [
+              "15",
+              "16"
+            ],
+            [
+              "12",
+              "20"
+            ],
+            [
+              "10",
+              "24"
+            ]
+          ]
+        },
+        {
+          "name": "Split Squat (Quads)",
+          "sets": [
+            [
+              "12",
+              "5x2"
+            ],
+            [
+              "12",
+              "7.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Seated DB OHP",
+          "sets": [
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Lateral Raise",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Leg Press",
+          "sets": [
+            [
+              "15",
+              "Bar"
+            ],
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "15",
+              "17.5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-09",
+      "muscle": "Back, Bi",
+      "satisfaction": 70,
+      "exercises": [
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "12",
+              "9"
+            ],
+            [
+              "8",
+              "11"
+            ],
+            [
+              "6",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "T-Bar (Wide)",
+          "sets": [
+            [
+              "10",
+              "25"
+            ],
+            [
+              "10",
+              "30"
+            ],
+            [
+              "9",
+              "32.5"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "32.5kg"
+        },
+        {
+          "name": "Single Arm Pulldown",
+          "sets": [
+            [
+              "15",
+              "24"
+            ],
+            [
+              "12",
+              "28"
+            ],
+            [
+              "13",
+              "28"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "28kg"
+        },
+        {
+          "name": "Seated Cable Rowing (Close)",
+          "sets": [
+            [
+              "15",
+              "40"
+            ],
+            [
+              "12",
+              "44"
+            ]
+          ]
+        },
+        {
+          "name": "Chest Supported DB Row",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Seated Rowing (Wide)",
+          "sets": [
+            [
+              "15",
+              "28"
+            ],
+            [
+              "15",
+              "32"
+            ]
+          ]
+        },
+        {
+          "name": "Bicep Curl",
+          "sets": [
+            [
+              "15",
+              "8"
+            ],
+            [
+              "15",
+              "8"
+            ],
+            [
+              "15",
+              "12"
+            ]
+          ]
+        },
+        {
+          "name": "Hammer Curl",
+          "sets": [
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-11",
+      "muscle": "Chest, Tri",
+      "satisfaction": 70,
+      "exercises": [
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Fly",
+          "sets": [
+            [
+              "12",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Press",
+          "sets": [
+            [
+              "15",
+              "5"
+            ],
+            [
+              "12",
+              "6"
+            ],
+            [
+              "10",
+              "6"
+            ]
+          ]
+        },
+        {
+          "name": "Incline DB Fly",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Skullcrusher",
+          "sets": [
+            [
+              "15",
+              "2.5x2"
+            ],
+            [
+              "12",
+              "2.5x2"
+            ],
+            [
+              "10",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pushdown",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "15",
+              "24"
+            ],
+            [
+              "15",
+              "24"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-12",
+      "muscle": "Hams, Back",
+      "satisfaction": 95,
+      "exercises": [
+        {
+          "name": "Leg Curl",
+          "sets": [
+            [
+              "15",
+              "24"
+            ],
+            [
+              "15",
+              "32"
+            ],
+            [
+              "15",
+              "36"
+            ]
+          ]
+        },
+        {
+          "name": "RDLs",
+          "sets": []
+        },
+        {
+          "name": "Bent Over Row",
+          "sets": []
+        },
+        {
+          "name": "Lat Pullover",
+          "sets": [
+            [
+              "15",
+              "32"
+            ],
+            [
+              "15",
+              "40"
+            ],
+            [
+              "15",
+              "48"
+            ]
+          ]
+        },
+        {
+          "name": "Kickbacks Cable",
+          "sets": [
+            [
+              "15",
+              "8"
+            ],
+            [
+              "20",
+              "4"
+            ],
+            [
+              "18",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-15",
+      "muscle": "Quads, Glutes, Delts",
+      "satisfaction": 35,
+      "notes": "Healing - do not compare, use 6/8 instead",
+      "exercises": [
+        {
+          "name": "Leg Extn",
+          "sets": [
+            [
+              "15",
+              "6"
+            ],
+            [
+              "12",
+              "7"
+            ],
+            [
+              "13",
+              "8"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Squat",
+          "sets": [
+            [
+              "15",
+              "16"
+            ],
+            [
+              "12",
+              "20"
+            ],
+            [
+              "13",
+              "20"
+            ]
+          ]
+        },
+        {
+          "name": "Split Squat (Quads)",
+          "sets": [
+            [
+              "15",
+              "10"
+            ],
+            [
+              "15",
+              "10"
+            ],
+            [
+              "12",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "Lateral Raise",
+          "sets": [
+            [
+              "8",
+              "2"
+            ],
+            [
+              "15",
+              "2.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Sumo Squat (BB)",
+          "sets": [
+            [
+              "15",
+              "15x2"
+            ],
+            [
+              "10",
+              "15x2"
+            ],
+            [
+              "12",
+              "15x2"
+            ],
+            [
+              "15",
+              "15x2"
+            ]
+          ]
+        },
+        {
+          "name": "Seated DB OHP",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ],
+            [
+              "12",
+              "7.5x2"
+            ],
+            [
+              "12",
+              "7.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Front Raise",
+          "sets": [
+            [
+              "15",
+              "5"
+            ],
+            [
+              "15",
+              "5"
+            ],
+            [
+              "15",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-16",
+      "muscle": "Biceps, Triceps",
+      "satisfaction": 78,
+      "exercises": [
+        {
+          "name": "Bicep Curl",
+          "sets": [
+            [
+              "15",
+              "8"
+            ],
+            [
+              "15",
+              "12"
+            ],
+            [
+              "15",
+              "12"
+            ]
+          ]
+        },
+        {
+          "name": "Hammer Curl",
+          "sets": [
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Skullcrusher",
+          "sets": [
+            [
+              "15",
+              "2.5x2"
+            ],
+            [
+              "15",
+              "2.5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pushdown",
+          "sets": [
+            [
+              "15",
+              "24"
+            ],
+            [
+              "15",
+              "24"
+            ],
+            [
+              "15",
+              "24"
+            ]
+          ]
+        }
+      ],
+      "notes": "Cardio - 30 min incline walk",
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-17",
+      "muscle": "Chest, Back",
+      "satisfaction": 78,
+      "exercises": [
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Fly",
+          "sets": [
+            [
+              "15",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ],
+            [
+              "12",
+              "3"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Press",
+          "sets": [
+            [
+              "15",
+              "6"
+            ],
+            [
+              "12",
+              "7"
+            ],
+            [
+              "15",
+              "5"
+            ]
+          ]
+        },
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "15",
+              "9"
+            ],
+            [
+              "10",
+              "10"
+            ],
+            [
+              "10",
+              "9"
+            ]
+          ]
+        },
+        {
+          "name": "T-Bar (Wide)",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "12",
+              "27.5"
+            ],
+            [
+              "10",
+              "32.5"
+            ]
+          ]
+        },
+        {
+          "name": "Seated Cable Rowing (Close)",
+          "sets": [
+            [
+              "15",
+              "40"
+            ],
+            [
+              "15",
+              "48"
+            ]
+          ]
+        },
+        {
+          "name": "Seated Rowing (Wide)",
+          "sets": [
+            [
+              "15",
+              "40"
+            ],
+            [
+              "12",
+              "44"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-19",
+      "muscle": "Hams, Glutes",
+      "satisfaction": 55,
+      "exercises": [
+        {
+          "name": "Leg Curl",
+          "sets": [
+            [
+              "15",
+              "24"
+            ],
+            [
+              "15",
+              "28"
+            ],
+            [
+              "12",
+              "32"
+            ]
+          ]
+        },
+        {
+          "name": "RDLs",
+          "sets": [
+            [
+              "15",
+              "12.5x2"
+            ],
+            [
+              "10",
+              "17.5x2"
+            ],
+            [
+              "8",
+              "22.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Split Squat (Glutes)",
+          "sets": [
+            [
+              "15",
+              "10"
+            ],
+            [
+              "12",
+              "10"
+            ],
+            [
+              "15",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "Leg Press",
+          "sets": [
+            [
+              "15",
+              "Bar"
+            ],
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "15",
+              "17.5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-22",
+      "muscle": "Quads, Glutes, Delts",
+      "satisfaction": 88,
+      "exercises": [
+        {
+          "name": "Leg Extn",
+          "sets": [
+            [
+              "12",
+              "7"
+            ],
+            [
+              "12",
+              "9"
+            ],
+            [
+              "15",
+              "6"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Squat",
+          "sets": [
+            [
+              "15",
+              "16"
+            ],
+            [
+              "13",
+              "20"
+            ],
+            [
+              "12",
+              "24"
+            ],
+            [
+              "12",
+              "28"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "28kg"
+        },
+        {
+          "name": "Split Squat (Quads)",
+          "sets": [
+            [
+              "12",
+              "10"
+            ],
+            [
+              "8",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "Sumo Squat",
+          "sets": [
+            [
+              "15",
+              "10"
+            ],
+            [
+              "15",
+              "25"
+            ],
+            [
+              "15",
+              "25"
+            ]
+          ]
+        },
+        {
+          "name": "Lateral Raise",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Seated DB OHP",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ],
+            [
+              "10",
+              "10x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-24",
+      "muscle": "Back, Bi",
+      "satisfaction": 88,
+      "exercises": [
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "12",
+              "9"
+            ],
+            [
+              "9",
+              "10"
+            ],
+            [
+              "8",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "T-Bar (Wide)",
+          "sets": [
+            [
+              "13",
+              "27.5"
+            ],
+            [
+              "12",
+              "32.5"
+            ],
+            [
+              "8",
+              "37.5"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "37.5kg"
+        },
+        {
+          "name": "Chest Supported DB Row",
+          "sets": [
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "15",
+              "10x2"
+            ],
+            [
+              "12",
+              "12.5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Seated Cable Rowing (Close)",
+          "sets": [
+            [
+              "15",
+              "44"
+            ],
+            [
+              "10",
+              "52"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "52kg"
+        },
+        {
+          "name": "Seated Rowing (Wide)",
+          "sets": [
+            [
+              "15",
+              "40"
+            ],
+            [
+              "8",
+              "40"
+            ]
+          ]
+        },
+        {
+          "name": "Shrugs",
+          "sets": [
+            [
+              "20",
+              "15x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-25",
+      "muscle": "Chest, Triceps",
+      "satisfaction": 78,
+      "notes": "Superset section partially illegible in original log - verify weights for the 3 chest-press variants",
+      "exercises": [
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ],
+            [
+              "12",
+              "10x2"
+            ]
+          ]
+        },
+        {
+          "name": "Chest Fly",
+          "sets": [
+            [
+              "15",
+              "4x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Sm M/C Chest Press",
+          "sets": [
+            [
+              "8",
+              "Bar"
+            ],
+            [
+              "6",
+              "Bar"
+            ]
+          ]
+        },
+        {
+          "name": "Flat Chest Press",
+          "sets": [
+            [
+              "-",
+              "-"
+            ],
+            [
+              "-",
+              "-"
+            ],
+            [
+              "12",
+              "10"
+            ]
+          ]
+        },
+        {
+          "name": "Machine Chest Press",
+          "sets": [
+            [
+              "12",
+              "6"
+            ],
+            [
+              "10",
+              "7"
+            ],
+            [
+              "6",
+              "9"
+            ]
+          ]
+        },
+        {
+          "name": "Skullcrusher",
+          "sets": [
+            [
+              "15",
+              "2.5x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ],
+            [
+              "12",
+              "5x2"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pushdown",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "15",
+              "16"
+            ],
+            [
+              "15",
+              "24"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    },
+    {
+      "date": "2026-06-29",
+      "muscle": "Quads, Glutes, Delts",
+      "satisfaction": 28,
+      "exercises": [
+        {
+          "name": "Leg Extn",
+          "sets": [
+            [
+              "15",
+              "7"
+            ],
+            [
+              "12",
+              "8"
+            ],
+            [
+              "12",
+              "9"
+            ],
+            [
+              "8",
+              "10"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "10kg"
+        },
+        {
+          "name": "Cable Squat",
+          "sets": [
+            [
+              "15",
+              "20"
+            ],
+            [
+              "15",
+              "24"
+            ],
+            [
+              "12",
+              "28"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "28kg"
+        },
+        {
+          "name": "Split Squat (Quads)",
+          "sets": [
+            [
+              "15",
+              "8"
+            ],
+            [
+              "13",
+              "8"
+            ]
+          ]
+        },
+        {
+          "name": "Sumo Squat (Cable)",
+          "sets": [
+            [
+              "15",
+              "-"
+            ],
+            [
+              "15",
+              "28"
+            ],
+            [
+              "12",
+              "36"
+            ]
+          ]
+        },
+        {
+          "name": "Seated DB OHP",
+          "sets": [
+            [
+              "15",
+              "7.5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-06-30",
+      "muscle": "Back, Biceps",
+      "satisfaction": 45,
+      "exercises": [
+        {
+          "name": "Lat Pulldown (Mag Grip)",
+          "sets": [
+            [
+              "15",
+              "8"
+            ],
+            [
+              "10",
+              "10"
+            ],
+            [
+              "8",
+              "11"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "11kg"
+        },
+        {
+          "name": "T-Bar (Wide)",
+          "sets": [
+            [
+              "10",
+              "35"
+            ],
+            [
+              "7",
+              "40"
+            ],
+            [
+              "3-4",
+              "45"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "45kg"
+        },
+        {
+          "name": "Seated Cable Rowing (Close)",
+          "sets": [
+            [
+              "15",
+              "44"
+            ],
+            [
+              "13",
+              "52"
+            ]
+          ]
+        },
+        {
+          "name": "Seated Rowing (Wide)",
+          "sets": [
+            [
+              "15",
+              "40"
+            ],
+            [
+              "11",
+              "40"
+            ]
+          ]
+        },
+        {
+          "name": "Cable Pullover",
+          "sets": [
+            [
+              "15",
+              "48"
+            ],
+            [
+              "12",
+              "52"
+            ],
+            [
+              "6",
+              "56"
+            ]
+          ],
+          "pr": true,
+          "pr_note": "56kg"
+        },
+        {
+          "name": "Bicep Curl",
+          "sets": [
+            [
+              "15",
+              "15"
+            ],
+            [
+              "15",
+              "12"
+            ],
+            [
+              "15",
+              "12"
+            ]
+          ]
+        },
+        {
+          "name": "Hammer Curl",
+          "sets": [
+            [
+              "15",
+              "3"
+            ],
+            [
+              "15",
+              "5x2"
+            ],
+            [
+              "15",
+              "5x2"
+            ]
+          ]
+        }
+      ],
+      "type": "Coach"
+    },
+    {
+      "date": "2026-07-01",
+      "muscle": "Core",
+      "satisfaction": 60,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Crunches",
+          "sets": [
+            [
+              "25",
+              "-"
+            ],
+            [
+              "25",
+              "-"
+            ],
+            [
+              "25",
+              "-"
+            ]
+          ]
+        },
+        {
+          "name": "Leg Raises",
+          "sets": [
+            [
+              "15",
+              "-"
+            ],
+            [
+              "15",
+              "-"
+            ],
+            [
+              "15",
+              "-"
+            ]
+          ]
+        },
+        {
+          "name": "Russian Twists",
+          "sets": [
+            [
+              "15x2",
+              "5"
+            ],
+            [
+              "15x2",
+              "5"
+            ],
+            [
+              "15x2",
+              "5"
+            ]
+          ]
+        },
+        {
+          "name": "Plank",
+          "sets": [
+            [
+              "2min",
+              "-"
+            ],
+            [
+              "1min",
+              "-"
+            ],
+            [
+              "1min",
+              "-"
+            ]
+          ]
+        },
+        {
+          "name": "Kettlebell",
+          "sets": [
+            [
+              "15",
+              "10"
+            ],
+            [
+              "15",
+              "10"
+            ],
+            [
+              "15",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "type": "Self"
+    }
+  ],
+  "muscleMap": {
+    "Leg Curl": "Hamstrings",
+    "RDLs": "Hamstrings",
+    "Leg Press": "Hamstrings",
+    "Sumo Squat": "Glutes",
+    "Sumo Squat (BB)": "Glutes",
+    "Sumo Squat (Cable)": "Glutes",
+    "Split Squat (Glutes)": "Glutes",
+    "Kickbacks Cable": "Glutes",
+    "Lat Pulldown (Mag Grip)": "Back",
+    "Cable Bent Over Row (Wide)": "Back",
+    "Straight Arm Cable Pulldown": "Back",
+    "T-Bar (Wide)": "Back",
+    "Seated Cable Rowing (Close)": "Back",
+    "Bent Over Row": "Back",
+    "Cable Pullover": "Back",
+    "Single Arm Pulldown": "Back",
+    "Chest Supported DB Row": "Back",
+    "Seated Rowing (Wide)": "Back",
+    "Shrugs": "Back (Traps)",
+    "Lat Pullover": "Back",
+    "Leg Extn": "Quads",
+    "Cable Squat": "Quads",
+    "Split Squat (Quads)": "Quads",
+    "Seated DB OHP": "Shoulders",
+    "Lateral Raise": "Shoulders",
+    "Front Raise": "Shoulders",
+    "Hammer Curl": "Biceps",
+    "Bicep Curl": "Biceps",
+    "Incline DB Press": "Chest",
+    "Machine Chest Fly": "Chest",
+    "Machine Chest Press": "Chest",
+    "Incline DB Fly": "Chest",
+    "Flat Chest Press": "Chest",
+    "Chest Fly": "Chest",
+    "Sm M/C Chest Press": "Chest",
+    "Cable Pushdown": "Triceps",
+    "Skullcrusher": "Triceps",
+    "Crunches": "Core",
+    "Leg Raises": "Core",
+    "Russian Twists": "Core",
+    "Plank": "Core",
+    "Kettlebell": "Core"
+  },
+  "groupOrder": [
+    "Hamstrings",
+    "Glutes",
+    "Back",
+    "Back (Traps)",
+    "Quads",
+    "Shoulders",
+    "Biceps",
+    "Chest",
+    "Triceps",
+    "Core"
+  ]
+}
