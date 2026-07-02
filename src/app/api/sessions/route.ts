@@ -5,7 +5,7 @@ import { normalizeSession } from "@/lib/workout";
 export const runtime = "nodejs";
 
 export async function GET(req: NextRequest) {
-  const userId = req.nextUrl.searchParams.get("userId") || "demo-user";
+  const userId = req.nextUrl.searchParams.get("userId") || "juanita-nidhindra";
   const supabase = getSupabaseAdmin();
 
   if (!supabase) {
@@ -27,7 +27,7 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   const body = await req.json().catch(() => null);
-  const userId = typeof body?.userId === "string" ? body.userId : "demo-user";
+  const userId = typeof body?.userId === "string" ? body.userId : "juanita-nidhindra";
   const session = normalizeSession(body?.session);
   const supabase = getSupabaseAdmin();
 

@@ -1,3 +1,9 @@
+export interface User {
+  id: string;
+  name: string;
+  createdAt: string;
+}
+
 export type SetEntry = [string, string];
 
 export interface WorkoutExercise {

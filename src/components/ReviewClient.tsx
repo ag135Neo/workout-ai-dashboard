@@ -4,35 +4,38 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { WorkoutSession } from "@/lib/types";
-import { DRAFT_KEY, getBrowserUserId, writeLocalSession } from "@/lib/local-store";
+import { clearDraft, readDraft, writeLocalSession } from "@/lib/local-store";
 import { normalizeSession } from "@/lib/workout";
+import { useUser } from "./UserContext";
+import UserSwitcher from "./UserSwitcher";
 
 export default function ReviewClient() {
   const router = useRouter();
+  const { activeUser } = useUser();
   const [jsonText, setJsonText] = useState("");
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const raw = window.localStorage.getItem(DRAFT_KEY);
+    const raw = readDraft(activeUser.id);
     if (raw) setJsonText(raw);
-  }, []);
+    else setJsonText("");
+  }, [activeUser.id]);
 
   async function save() {
     setError(null);
     try {
       const session = normalizeSession(JSON.parse(jsonText)) as WorkoutSession;
-      writeLocalSession(session);
-      setMessage("Saved in browser. Syncing to DB if configured...");
-      const userId = getBrowserUserId();
+      writeLocalSession(session, activeUser.id);
+      setMessage(`Saved in browser for ${activeUser.name}. Syncing to DB if configured...`);
       const res = await fetch("/api/sessions", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ userId, session }),
+        body: JSON.stringify({ userId: activeUser.id, session }),
       });
       const payload = await res.json();
       if (!res.ok) throw new Error(payload.error || "DB save failed");
-      window.localStorage.removeItem(DRAFT_KEY);
+      clearDraft(activeUser.id);
       router.push("/");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Invalid JSON");
@@ -47,12 +50,15 @@ export default function ReviewClient() {
       <header className="app-header">
         <div>
           <h1>✅ Review Extraction</h1>
-          <div className="sub">Fix anything the AI guessed wrong, then save it into the dashboard.</div>
+          <div className="sub">Fix anything the AI guessed wrong, then save it into the dashboard for {activeUser.name}.</div>
         </div>
-        <Link className="button ghost" href="/upload">Back to upload</Link>
+        <div className="top-actions">
+          <UserSwitcher />
+          <Link className="button ghost" href="/upload">Back to upload</Link>
+        </div>
       </header>
 
-      {!jsonText ? <div className="placeholder">No draft found. Upload an image first.</div> : null}
+      {!jsonText ? <div className="placeholder">No draft found for {activeUser.name}. Upload an image first.</div> : null}
 
       {parsed ? (
         <section className="review-summary">

@@ -16,7 +16,10 @@ import {
   sessionVolume,
   topSetLoad,
 } from "@/lib/workout";
-import { clearLocalSessions, getBrowserUserId, readLocalSessions } from "@/lib/local-store";
+import { clearLocalSessions, readLocalSessions } from "@/lib/local-store";
+import { SEED_USER_ID } from "@/lib/users";
+import { useUser } from "./UserContext";
+import UserSwitcher from "./UserSwitcher";
 import BodyDiagram from "./BodyDiagram";
 import VolumeChart from "./VolumeChart";
 
@@ -24,44 +27,70 @@ const seedData = seed as unknown as WorkoutData;
 
 type CellData = Record<string, Record<string, WorkoutExercise>>;
 
+function emptyData(): WorkoutData {
+  return { sessions: [], muscleMap: {}, groupOrder: seedData.groupOrder };
+}
+
 export default function DashboardClient() {
-  const [data, setData] = useState<WorkoutData>(() => ({
-    sessions: seedData.sessions,
-    muscleMap: seedData.muscleMap,
-    groupOrder: seedData.groupOrder,
-  }));
+  const { activeUser } = useUser();
+  const [data, setData] = useState<WorkoutData>(() =>
+    activeUser.id === SEED_USER_ID
+      ? { sessions: seedData.sessions, muscleMap: seedData.muscleMap, groupOrder: seedData.groupOrder }
+      : emptyData(),
+  );
   const [muscle, setMuscle] = useState("__all__");
   const [exercise, setExercise] = useState("__all__");
   const [typeFilter, setTypeFilter] = useState("__all__");
   const [date, setDate] = useState("__all__");
-  const [sourceNote, setSourceNote] = useState("Demo data loaded from the original HTML. Upload a log to add your own sessions.");
+  const [sourceNote, setSourceNote] = useState("Loading sessions...");
 
   useEffect(() => {
-    const userId = getBrowserUserId();
-    const localSessions = readLocalSessions();
+    const userId = activeUser.id;
+    const seedSessions = userId === SEED_USER_ID ? seedData.sessions : [];
+    const localSessions = readLocalSessions(userId);
 
     async function loadRemote() {
       try {
         const res = await fetch(`/api/sessions?userId=${encodeURIComponent(userId)}`);
         const payload = await res.json();
         const remoteSessions = Array.isArray(payload.sessions) ? payload.sessions : [];
-        const sessions = mergeSessions(seedData.sessions, [...localSessions, ...remoteSessions]);
+        const sessions = mergeSessions(seedSessions, [...localSessions, ...remoteSessions]);
         setData({
           sessions,
-          muscleMap: deriveMuscleMap(seedData.muscleMap, sessions),
+          muscleMap: deriveMuscleMap(userId === SEED_USER_ID ? seedData.muscleMap : {}, sessions),
           groupOrder: seedData.groupOrder,
         });
-        if (remoteSessions.length) setSourceNote(`Loaded demo data + ${remoteSessions.length} saved database session(s).`);
-        else if (localSessions.length) setSourceNote(`Loaded demo data + ${localSessions.length} browser-saved session(s).`);
+
+        const parts: string[] = [];
+        if (userId === SEED_USER_ID) parts.push(`${seedSessions.length} seed session(s)`);
+        if (localSessions.length) parts.push(`${localSessions.length} browser-saved`);
+        if (remoteSessions.length) parts.push(`${remoteSessions.length} from database`);
+        if (!parts.length) {
+          setSourceNote(`No sessions yet for ${activeUser.name}. Upload a log to get started.`);
+        } else {
+          setSourceNote(`Showing ${activeUser.name}: ${parts.join(" + ")}.`);
+        }
       } catch {
-        const sessions = mergeSessions(seedData.sessions, localSessions);
-        setData({ sessions, muscleMap: deriveMuscleMap(seedData.muscleMap, sessions), groupOrder: seedData.groupOrder });
-        if (localSessions.length) setSourceNote(`Loaded demo data + ${localSessions.length} browser-saved session(s).`);
+        const sessions = mergeSessions(seedSessions, localSessions);
+        setData({
+          sessions,
+          muscleMap: deriveMuscleMap(userId === SEED_USER_ID ? seedData.muscleMap : {}, sessions),
+          groupOrder: seedData.groupOrder,
+        });
+        if (!sessions.length) {
+          setSourceNote(`No sessions yet for ${activeUser.name}. Upload a log to get started.`);
+        } else {
+          setSourceNote(`Showing ${activeUser.name}: ${sessions.length} session(s).`);
+        }
       }
     }
 
+    setMuscle("__all__");
+    setExercise("__all__");
+    setTypeFilter("__all__");
+    setDate("__all__");
     loadRemote();
-  }, []);
+  }, [activeUser.id, activeUser.name]);
 
   const sessions = data.sessions;
   const exerciseOrder = useMemo(() => buildExerciseOrder(data), [data]);
@@ -84,9 +113,18 @@ export default function DashboardClient() {
   }, [exercise, exerciseOptions]);
 
   function handleResetLocal() {
-    clearLocalSessions();
-    setData({ sessions: seedData.sessions, muscleMap: seedData.muscleMap, groupOrder: seedData.groupOrder });
-    setSourceNote("Browser-saved sessions cleared. Demo data is still visible.");
+    clearLocalSessions(activeUser.id);
+    const seedSessions = activeUser.id === SEED_USER_ID ? seedData.sessions : [];
+    setData({
+      sessions: seedSessions,
+      muscleMap: activeUser.id === SEED_USER_ID ? seedData.muscleMap : {},
+      groupOrder: seedData.groupOrder,
+    });
+    setSourceNote(
+      activeUser.id === SEED_USER_ID
+        ? "Browser-saved sessions cleared. Seed data is still visible."
+        : `Browser-saved sessions cleared for ${activeUser.name}.`,
+    );
   }
 
   const isDateView = date !== "__all__";
@@ -100,6 +138,7 @@ export default function DashboardClient() {
           <div className="tiny-note">{sourceNote}</div>
         </div>
         <div className="top-actions">
+          <UserSwitcher />
           <Link className="button primary" href="/upload">+ Upload log</Link>
           <button className="button ghost" onClick={handleResetLocal}>Clear browser saves</button>
         </div>

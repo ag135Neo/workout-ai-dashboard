@@ -3,10 +3,13 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useMemo, useState } from "react";
-import { DRAFT_KEY } from "@/lib/local-store";
+import { writeDraft } from "@/lib/local-store";
+import { useUser } from "./UserContext";
+import UserSwitcher from "./UserSwitcher";
 
 export default function UploadClient() {
   const router = useRouter();
+  const { activeUser } = useUser();
   const [file, setFile] = useState<File | null>(null);
   const [type, setType] = useState("Self");
   const [date, setDate] = useState(new Date().toISOString().slice(0, 10));
@@ -36,7 +39,7 @@ export default function UploadClient() {
       setStatus(null);
       return;
     }
-    window.localStorage.setItem(DRAFT_KEY, JSON.stringify(payload.session, null, 2));
+    writeDraft(JSON.stringify(payload.session, null, 2), activeUser.id);
     router.push("/review");
   }
 
@@ -45,9 +48,12 @@ export default function UploadClient() {
       <header className="app-header">
         <div>
           <h1>📸 Upload Workout Log</h1>
-          <div className="sub">Take a photo of a written/table workout log. AI extracts the sets, then you review before saving.</div>
+          <div className="sub">Upload a log for {activeUser.name}. AI extracts the sets, then you review before saving.</div>
         </div>
-        <Link className="button ghost" href="/">Back to dashboard</Link>
+        <div className="top-actions">
+          <UserSwitcher />
+          <Link className="button ghost" href="/">Back to dashboard</Link>
+        </div>
       </header>
 
       <form className="upload-card" onSubmit={submit}>

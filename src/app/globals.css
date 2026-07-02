@@ -130,6 +130,11 @@ textarea { resize: vertical; min-height: 92px; }
 .review-summary > div { background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:14px 16px; display:flex; flex-direction:column; gap:4px; }
 .review-summary strong { font-size:1rem; }
 .review-summary span { color:var(--muted); font-size:.78rem; }
+.user-switcher { display:flex; gap:10px; align-items:flex-end; flex-wrap:wrap; }
+.user-field { min-width:180px; margin:0; }
+.user-add-btn { align-self:flex-end; margin-bottom:1px; }
+.user-create-form { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.user-create-form input { min-width:180px; }
 @media (max-width: 860px) {
   body { padding: 24px 14px 48px; }
   .app-header { flex-direction: column; }
